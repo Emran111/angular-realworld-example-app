@@ -1,12 +1,12 @@
 apiVersion: v1
-kind: pod
+kind: Pod
 metadata:
-	name: anyname
-	labels:
-		app: anyapp
+  name: anyname
+  labels:
+    app: anyapp
 spec:
-	containers:
-		- name: anyname
-		image: fcihkr/repo1:tagVersion
-		ports:
-			- containerPort: 8001
+  containers:
+    - name: anyname
+      image: kammana/nodeapp:tagVersion
+      ports:
+        - containerPort: 8001
